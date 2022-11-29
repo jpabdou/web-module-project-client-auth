@@ -37,50 +37,50 @@ Each friend object has the format:
 
 ### Task 1: Project Set Up
 
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] cd into the project base directory `cd web-module-project-client-auth`
-* [ ] Download project dependencies by running `npm install`
-* [ ] Run `npm start` to start the client code.
-* [ ] Your server code will run automatically, just as they do in sprint challenges.
+* [x] Create a forked copy of this project.
+* [x] Clone your OWN version of the repository in your terminal
+* [x] cd into the project base directory `cd web-module-project-cliexnt-auth`
+* [x] Download project dependencies by running `npm install`
+* [x] Run `npm start` to start the client code.
+* [x] Your server code will run automatically, just as they do in sprint challenges.
 
 ### Task 2: Project Requirements
 
 #### Build the login component
 
-* [ ] Use the [mockup provided](./login_mockup.png) to build out a simple login component.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/` or `/login`
-* [ ] When submitting your login form, save the token returned to localStorage and redirect to the FriendsList route.
+* [x] Use the [mockup provided](./login_mockup.png) to build out a simple login component.
+* [x] In `App.js`, add a route to allow this component to be displayed when navigating to `/` or `/login`
+* [x] When submitting your login form, save the token returned to localStorage and redirect to the FriendsList route.
 
 #### Build the friendslist component
 
-* [ ] Use the [mockup provided](./friendslist_mockup.png) to build out a simple list component made to display all friends.
-* [ ] When the component mounts, make a call to the api retrieving all friends. Remember that this is a protected route.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends`
-* [ ] In your login component, add code to your submission code the ability to redirect to your friendslist component.
+* [x] Use the [mockup provided](./friendslist_mockup.png) to build out a simple list component made to display all friends.
+* [x] When the component mounts, make a call to the api retrieving all friends. Remember that this is a protected route.
+* [x] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends`
+* [x] In your login component, add code to your submission code the ability to redirect to your friendslist component.
 
 #### Build the addFriends component
 
-* [ ] Use the [mockup provided](./addfriends_mockup.png) to build out a simple component allowing you to collect data to add in a new friend.
-* [ ] The component should include a form with inputs for each friend attribute and a submit button.
-* [ ] When submitting the form, make a call to the approprate api endpoint with your new friend data. Remember that this is a protected route.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends/add`.
+* [x] Use the [mockup provided](./addfriends_mockup.png) to build out a simple component allowing you to collect data to add in a new friend.
+* [x] The component should include a form with inputs for each friend attribute and a submit button.
+* [x] When submitting the form, make a call to the approprate api endpoint with your new friend data. Remember that this is a protected route.
+* [x] In `App.js`, add a route to allow this component to be displayed when navigating to `/friends/add`.
 
 #### Build a logout button
 
-* [ ] Build out a simple component allowing you to logout of your application cleanly.
-* [ ] The component should make a call to the logout endpoint and remove the token on local storage by default.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/logout`.
-* [ ] In `App.js`, create a navigation bar that allows the user to redirect to logout, friendslist or add friend.
+* [x] Build out a simple component allowing you to logout of your application cleanly.
+* [x] The component should make a call to the logout endpoint and remove the token on local storage by default.
+* [x] In `App.js`, add a route to allow this component to be displayed when navigating to `/logout`.
+* [x] In `App.js`, create a navigation bar that allows the user to redirect to logout, friendslist or add friend.
 
 #### Protect the /friends and /friends/add routes
 
-* [ ] Redirect the user to your login route if there is not a token in local storage.
+* [x] Redirect the user to your login route if there is not a token in local storage.
 
 ### Task 3: Stretch goals
 
-- [ ] Add in a modularized way to access protected endpoints using axiosWithAuth.
-- [ ] Add in a protected page and route that allows shows an information friends information. Use url params to get the id for this friend.
+- [x] Add in a modularized way to access protected endpoints using axiosWithAuth.
+- [x] Add in a protected page and route that allows shows an information friends information. Use url params to get the id for this friend.
 - [ ] Style as you wish.
 
 ### Submission Format
